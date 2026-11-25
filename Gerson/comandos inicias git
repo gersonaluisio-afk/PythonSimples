@@ -1,0 +1,48 @@
+Como executar o Git?
+Baixe e instale o Git, você pode encontrar tudo sobre no site oficial do Git em "https://git-scm.com/download/win".
+
+Depois de instalar o Git, você pode começar a usar o Git em um projeto. É só seguir essas etapas:
+
+1. Configure seu nome de usuário e e-mail:
+ git config --global user.name "Seu Nome"
+ git config --global user.email "seu@email.com
+ 
+ 
+2. Crie um Repositório Git:
+ git init
+ 
+3. Adicione Arquivos ao Controle de Versão:
+git add nome-do-arquivo
+
+O git add ira adicionar os arquivos ao "staging area", que é onde você prepara os arquivos para serem "commitados" ou salvos.
+
+4. Faça um Commit:
+git commit -m "Sua mensagem de commit aqui"
+
+5. Visualize o Histórico de Commits:
+git log
+
+Essas são as etapas fundamentais para começar a usar o Git.
+
+Caso você queira exibir as condições do diretório de trabalho e da área de staging. 
+
+Você pode utilizar:
+
+git status
+
+O que seria diretório de trabalho, área de preparo, e o diretório Git?
+
+O diretório Git é onde o Git armazena os metadados e a base de dados de objetos do seu projeto.
+
+O diretório de trabalho é uma simples cópia de uma versão do projeto. Estes arquivos são puxados da base de dados compactados no diretório Git e colocados no disco para os usar ou modificar.
+
+Já a área de preparo é um arquivo, geralmente contido no teu diretório Git, que armazena informações sobre o que vai entrar no teu próximo commit.
+
+link da documentação:
+
+https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git
+
+Recomendados para você
+Microsoft - Certificação AI-103
+Neo4j - Certification
+DXC - IA do Zero ao Primeiro Agente
